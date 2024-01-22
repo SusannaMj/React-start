@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Audio } from "react-loader-spinner";
 
 function App() {
   return (
@@ -9,6 +10,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Audio
+          height="80"
+          width="80"
+          radius="9"
+          color="green"
+          ariaLabel="loading"
+          wrapperStyle
+          wrapperClass
+        />
+        <div>Hello</div>
         <a
           className="App-link"
           href="https://reactjs.org"
